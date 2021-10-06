@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+    <title>IPL First Innings Score Prediction</title>
+</head>
+
+<style>
+    body{
+        background: url(Back_Img.jpg) no-repeat 0 50%;
+    }
+    .HeadText{
+        color: white;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: rgba(0, 0, 0, 0.24);
+    }
+
+    h2 {
+        font-family: 'Ephesis', cursive;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+
+        background-color: rgba(0, 0, 0, 0.24);
+
+    }
+
+    .forms {
+        color: white font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        border-radius: 3px;
+        padding: 5px;
+        margin: 3px;
+
+    }
+
+    .forms>label{
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 20px;
+        color: white;
+    }
+    #para1{
+        color: white;
+        text-align: center;
+    }
+    .forms_ka{
+        font-size: 20px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <div>
+        <h1 class="HeadText">IPL First Innings Score Prediction</h1>
+        <p id="para1"> (Using Lasso Regression) </p>
+    </div>
+    
+    <div class="forms">
+        <label for="batting_team">Batting Team </label>
+        <select name="batting_team">
+            <option value="Chennai Super Kings">Chennai Super Kings</option>
+            <option value="Delhi Capitals" selected>Delhi Capitals</option>
+            <option value="Kolkata Knight Riders" selected>Kolkata Knight Riders</option>
+            <option value="Mumbai Indians">Mumbai Indians</option>
+            <option value="Punjab Kings">Punjab Kings</option>
+            <option value="Rajasthan Royals" selected>Rajasthan Royals</option>
+            <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+            <option value="Sunrisers Hyderabad" selected>Sunrisers Hyderabad</option>
+        </select>
+    </div>
+
+    <div class="forms">
+        <label for="bowling_team">Bowling Team </label>
+        <select name="Bowling Team">
+            <option value="Chennai Super Kings">Chennai Super Kings</option>
+            <option value="Delhi Capitals" selected>Delhi Capitals</option>
+            <option value="Kolkata Knight Riders" selected>Kolkata Knight Riders</option>
+            <option value="Mumbai Indians">Mumbai Indians</option>
+            <option value="Punjab Kings">Punjab Kings</option>
+            <option value="Rajasthan Royals" selected>Rajasthan Royals</option>
+            <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+            <option value="Sunrisers Hyderabad" selected>Sunrisers Hyderabad</option>
+        </select>
+    </div>
+
+    <div class="Forms_ka">
+        <input class="form-input" type="text" name="Overs Done" placeholder="Overs (>= 6.0)">
+    </div>
+
+    <div>
+        <input type="submit" class="myButton" value="Predict Score">
+    </div>
+
+    <h2>Made With ❤ By Team No. 89 </h2>
+
+</body>
+
+</html>
